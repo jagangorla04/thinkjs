@@ -1,37 +1,41 @@
 import React from 'react';
 import './styles.css';
-
+import jar from "./assets/Jar.jpg"
+import arrow from "./assets/arrow.png"
 function Content() {
   return (
     <main className="content">
       <section className="section">
+        <div style={{display:'flex',alignItems:'center',gap:10}} >
+        <img src={arrow} alt="arrow"/>
         <h2>What is Lorem Ipsum?</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
       </section>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
       
       <section className="section images">
         <div className="image-item">
-          <img src="your-image-url.jpg" alt="Sample 1" />
+          <img src={jar} alt="Sample 1" />
           <p>Where does it come from? Lorem Ipsum is simply dummy text.</p>
         </div>
         <div className="image-item">
-          <img src="your-image-url.jpg" alt="Sample 2" />
+          <img src={jar} style={{width:"100%"}} alt="Sample 2" />
           <p>Where does it come from? Lorem Ipsum is simply dummy text.</p>
         </div>
         <div className="image-item">
-          <img src="your-image-url.jpg" alt="Sample 3" />
+          <img src={jar} alt="Sample 3" />
           <p>Where does it come from? Lorem Ipsum is simply dummy text.</p>
         </div>
       </section>
 
       <section className="section">
+      <div style={{display:'flex',alignItems:'center',gap:10}} >
+        <img src={arrow} alt="arrow"/>
         <h2>What is Lorem Ipsum?</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-        <ul>
-          <li>First point</li>
-          <li>Second point</li>
-          <li>Third point</li>
-        </ul>
+        </div>
+    
       </section>
     </main>
   );

@@ -7,6 +7,7 @@ body {
     line-height: 1.6;
   }
   
+  
   .header {
     background-color: white;
     border-bottom: 1px solid #ddd;
@@ -20,7 +21,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  
+ 
   .nav {
     display: flex;
     justify-content: space-around;
@@ -117,6 +118,7 @@ body {
     text-align: center;
     flex: 1 1 30%;
     margin: 1rem;
+    width: 100%;
   }
   
   .image-item img {
