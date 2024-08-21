@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import banner from "./assets/banner.png"
-import screenshot from './assets/Screenshot (56).png'
+import oip from './assets/OIP.jpeg'
 import './carousel.css';
 const images = [
     banner, 
-    screenshot,
+   oip,
     
   ];
 function Carousel() {

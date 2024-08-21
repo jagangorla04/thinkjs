@@ -1,10 +1,11 @@
-
+import person from "../assets/carring.jpg"
+import jar from "../assets/Jar.jpg"
 import './details.css';
 
 function Details() {
   return (
     <div className="content">
-      <section style={{display:"flex",alignItems:'center'}}>
+      <section style={{display:"flex",}}>
         <div className="info-text">
           <h2>What is Lorem Ipsum?</h2>
           <p>
@@ -18,12 +19,12 @@ function Details() {
           </ul>
         </div>
         <div className="info-image">
-          <img src="path-to-your-image.jpg" alt="Lorem Ipsum" />
+          <img src={person} style={{height:"44vh"}} alt="Lorem Ipsum" />
         </div>
       </section>
       <div style={{display:'flex', alignItems:'center'}} className="info-container1">
   <div className="info-image">
-    <img src="path-to-your-image.jpg" alt="Lorem Ipsum" />
+    <img src={jar} style={{height:"50vh",width:"80%"}} alt="Lorem Ipsum" />
   </div>
   <div className="info-text">
     <h2>What is Lorem Ipsum?</h2>
